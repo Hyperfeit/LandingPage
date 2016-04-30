@@ -51,7 +51,7 @@ a:hover {
 }
 
 .even a {
-  color: #C31E1E;
+  color: #B31D1D;
 }
 .even a:hover {
   color: #731717;
@@ -59,6 +59,12 @@ a:hover {
 .odd {
   background-color: #731717;
   color: #DDD;
+}
+.odd a {
+  color: #888;
+}
+.odd a:hover {
+  color: #555;
 }
 .person {
   font-size: 18px;
