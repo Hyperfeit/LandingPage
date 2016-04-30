@@ -46,11 +46,6 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-@media (max-width: 768px) {
-  p {
-    max-width: 90%;
-  }
-}
 a:hover {
   text-decoration: none;
 }
@@ -75,4 +70,22 @@ a:hover {
 .person .name {
   display: block;
   margin-top: 8px;
+}
+
+#updates .form-control {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#updates .btn {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  p {
+    max-width: 90%;
+  }
+  #updates .form-control {
+    width: 90%;
+  }
 }
